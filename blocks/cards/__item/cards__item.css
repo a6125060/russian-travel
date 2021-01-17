@@ -1,0 +1,30 @@
+.cards__item {
+    width: 284px;
+    height: 213px;
+    justify-self: center;
+   
+}
+
+@media screen and (max-width: 1024px) { 
+    .cards__item {
+        width: 300px;
+        height: 225px;
+    }
+            
+    }
+               
+    @media screen and (max-width: 768px) { 
+    .cards__item {
+        width: 352px;
+        height: 264px;
+    }
+            
+    }
+
+    @media screen and (max-width: 400px) {      
+    .cards__item {
+        width: calc(288/320*100vw);
+        height: calc(216/320*100vw);
+    }
+            
+}

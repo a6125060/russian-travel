@@ -1,0 +1,23 @@
+.footer__copiright {
+    width: 186px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 0;
+    text-align: right;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 700px) { 
+    .footer__copiright {
+        font-size: 14px;
+        line-height: 14px;
+        text-align: left;
+    }
+            
+    }
+                   

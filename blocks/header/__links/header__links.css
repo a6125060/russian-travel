@@ -1,0 +1,27 @@
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    width: 77px;
+   
+    
+}
+
+
+@media screen and (max-width: 768px) { 
+    .header__links  {
+        font-size: 18px;
+        line-height: 20px;
+        width: 62px;
+        
+}
+    
+}
+        
+
+

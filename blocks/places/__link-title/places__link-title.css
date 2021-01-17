@@ -1,0 +1,17 @@
+.places__link-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 170%;
+    align-self: end;
+    letter-spacing: 0.2em;
+    color: #AAAAAA;
+}
+
+@media screen and (max-width: 750px) {
+    .places__link-title {
+     margin-left: 16px;
+      }
+              
+      }

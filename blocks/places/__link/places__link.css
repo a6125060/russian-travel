@@ -1,11 +1,11 @@
 .places__link {
-  grid-column-start: 2;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #FFFFFF;
+ 
 
 }
 

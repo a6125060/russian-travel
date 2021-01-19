@@ -9,6 +9,7 @@
         height: calc(580/1024*100vw);
         
 }
+}
 
 @media screen and (max-width: 768px) { 
     .lead__image {

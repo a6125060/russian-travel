@@ -11,11 +11,12 @@
 
 }
 
-@media screen and (max-width: 700px) { 
+@media screen and (max-width: 740px) { 
     .footer__copiright {
         font-size: 14px;
         line-height: 14px;
         text-align: left;
+        margin: 16px auto 24px 0;
     }
             
     }

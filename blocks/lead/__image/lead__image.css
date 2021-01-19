@@ -1,9 +1,16 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
+    width: calc(984/1280*100vw);
+    height: calc(615/1280*100vw);
 }
 
-@media screen and (max-width: 1000px) { 
+@media screen and (max-width: 1024px) { 
+    .lead__image {
+        width: calc(928/1024*100vw);
+        height: calc(580/1024*100vw);
+        
+}
+
+@media screen and (max-width: 768px) { 
     .lead__image {
         width: 100vw;
         height: calc(480/768*100vw);

@@ -1,16 +1,17 @@
 .cards {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 0;
-    justify-self: center;
-    margin: 0 48px 92px 48px;   
+    gap: 16px;
+    margin: 0 auto 92px auto;   
+    width: calc(1184/1280*100vw);
+    justify-items: center;
 }
 
 
 @media screen and (max-width: 1200px) { 
     .cards {
         grid-template-columns: repeat(3, 1fr);
-       
+        gap: 14px;
     }
             
     }
@@ -18,8 +19,8 @@
     @media screen and (max-width: 1000px) { 
         .cards {
         grid-template-columns: repeat(2, 1fr);
-        margin: 0 24px 88px 24px;
-        
+        margin: 0 auto 88px auto;
+        gap: 16px;
     }
             
     }
@@ -27,8 +28,8 @@
     @media screen and (max-width: 750px) {      
         .cards {
             grid-template-columns: repeat(1, 1fr);
-           row-gap: 12px;
-            margin: 0 16px 64px 16px;
+            gap: 12px;
+            margin: 0 auto 64px auto;
     
     }
             

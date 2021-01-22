@@ -3,3 +3,6 @@
    color: #FFFFFF;
   
 }
+.header__link-ru:hover {
+  opacity: .8;
+}

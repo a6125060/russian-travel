@@ -1,4 +1,10 @@
 .header__link-en {
   color: #FFFFFF;
+  margin-left: 18px;
   
+}
+
+
+.header__link-en:hover {
+  opacity: .8;
 }

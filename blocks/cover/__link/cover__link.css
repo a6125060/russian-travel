@@ -6,14 +6,13 @@
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  background-color:rgba(42, 44, 47, 1);
-  opacity: .3;    
-  z-index: -10; 
+  background-color:rgba(42, 44, 47, .3);
+  
 }
 
 .cover__link:hover {
-  opacity: .8;
-  z-index: -10; 
+  background-color:rgba(42, 44, 47, .8);
+ 
 }
 
 

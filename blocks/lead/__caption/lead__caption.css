@@ -6,22 +6,18 @@
     line-height: 14px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 8px;
     margin-bottom: 0;
-  
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .lead__caption {
         margin-left: 24px;
-        
+    }
 }
-    
-}
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 320px) {
     .lead__caption {
         margin-left: 16px;
     }
-            
-    }
+}

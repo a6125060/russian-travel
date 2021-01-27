@@ -1,7 +1,0 @@
-.header__link_underline_no {
-    text-decoration-line: none;
-}
-
-.header__link_underline_no:hover {
-    opacity: .8;
-  }

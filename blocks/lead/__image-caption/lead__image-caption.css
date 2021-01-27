@@ -1,24 +1,24 @@
 .lead__image-caption {
-    display:flex;
+    display: flex;
     flex-direction: column;
+    width: calc(984 / 1280 * 100%);
     margin: 0 auto 92px auto;
-   
-   
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 1064px) {
+    .lead__caption {
+        width: calc(928 / 1064 * 100%);
+    }
+}
+
+@media screen and (max-width: 768px) {
     .lead__image-caption {
-       margin-bottom: 88px;
-        
+        width: 100%;
+        margin-bottom: 88px;
+    }
 }
-    
-}
-@media screen and (max-width: 320px) { 
+@media screen and (max-width: 320px) {
     .lead__image-caption {
         margin-bottom: 64px;
     }
-            
-    }
-                   
-
-
+}

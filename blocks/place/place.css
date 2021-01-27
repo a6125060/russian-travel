@@ -1,4 +1,4 @@
-.places__item {
+.place {
     display: grid;
     grid-template-columns: repeat(2, 484px);
     column-gap: 16px;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .places__item {
+    .place {
         grid-template-columns: repeat(2, 456px);
         width: 928px; 
     }
@@ -17,7 +17,7 @@
             
     
 @media screen and (max-width: 1000px) {
-    .places__item {
+    .place {
         grid-template-columns: repeat(2, 352px);
         margin-bottom: 50px;
         width: 720px; 
@@ -27,7 +27,7 @@
         
   
 @media screen and (max-width: 750px) {
-    .places__item {
+    .place {
         display: block;
         width: 100%;
         flex-direction: column;

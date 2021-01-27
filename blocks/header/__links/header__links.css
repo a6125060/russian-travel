@@ -1,26 +1,22 @@
 .header__links {
     display: flex;
     flex-direction: row;
-    align-items: start;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    max-width: 77px;
+    justify-content: space-between;
+    width: 77px;
+    margin-top: 46px;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
    
-    
+
 }
 
 
 @media screen and (max-width: 320px) { 
     .header__links  {
-        font-size: 18px;
-        line-height: 20px;
-        width: 62px;
+     width: 62px;
+     margin-top: 30px;
         
 }
     
 }
-        
-
-

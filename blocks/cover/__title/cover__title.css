@@ -7,20 +7,14 @@
     color: #FFFFFF;
     max-width: 540px;
     margin-top: 0;
-    margin-bottom: 32px;   
-    
-    
+    margin-bottom: 32px;
 }
 
-
-@media screen and (max-width: 550px) { 
+@media screen and (max-width: 550px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 18px;
         max-width: 230px;
-
-      }
-              
-      }
-     
+    }
+}

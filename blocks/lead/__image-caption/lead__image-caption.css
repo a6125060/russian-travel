@@ -5,9 +5,9 @@
     margin: 0 auto 92px auto;
 }
 
-@media screen and (max-width: 1064px) {
-    .lead__caption {
-        width: calc(928 / 1064 * 100%);
+@media screen and (max-width: 1024px) {
+    .lead__image-caption {
+        width: calc(928 / 1024 * 100%);
     }
 }
 
@@ -17,6 +17,7 @@
         margin-bottom: 88px;
     }
 }
+
 @media screen and (max-width: 320px) {
     .lead__image-caption {
         margin-bottom: 64px;

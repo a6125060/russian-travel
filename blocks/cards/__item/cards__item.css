@@ -1,26 +1,21 @@
 .cards__item {
- width: 284px;
-
-   
+    width: 284px;
 }
 
-@media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .cards__item {
         width: 300px;
     }
-            
-    }
-               
-    @media screen and (max-width: 768px) { 
+}
+
+@media screen and (max-width: 768px) {
     .cards__item {
         width: 352px;
     }
-            
-    }
+}
 
-    @media screen and (max-width: 750px) {      
+@media screen and (max-width: 750px) {
     .cards__item {
         width: 288px;
     }
-            
 }

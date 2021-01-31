@@ -7,25 +7,24 @@
     color: #FFFFFF;
     margin-top: 0;
     margin-bottom: 26px;
-    justify-items: start;  
-  }
+    justify-items: start;
+}
 
-  @media screen and (max-width: 1024px) { 
+@media screen and (max-width: 1024px) {
     .place__paragraph {
-      font-size: 16px;
-      margin: 0 auto 27px 16px;
-      
+        margin: 0 auto 27px auto;
     }
-           
-    }
-                   
+}
 
-  @media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
     .place__paragraph {
-      font-size: 16px;
-      margin: 0 auto 25px 16px;
-      
+        font-size: 16px;
+        margin-bottom: 25px;
     }
-           
+}
+
+@media screen and (max-width: 500px) {
+    .place__paragraph {
+        margin-left: 16px;
     }
-                   
+}

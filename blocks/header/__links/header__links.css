@@ -8,16 +8,11 @@
     padding-left: 0;
     list-style: none;
     text-decoration: none;
-   
-
 }
 
-
-@media screen and (max-width: 320px) { 
-    .header__links  {
-     width: 62px;
-     margin-top: 30px;
-        
-}
-    
+@media screen and (max-width: 320px) {
+    .header__links {
+        width: 62px;
+        margin-top: 30px;
+    }
 }

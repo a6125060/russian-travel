@@ -4,6 +4,14 @@
 
 @media screen and (max-width: 750px) {
     .place__links {
-        margin: 32px auto 32px 16px;
+        margin: 32px auto 32px auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__links {
+        margin-left: 16px;
+        text-align: left;
     }
 }

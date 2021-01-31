@@ -28,6 +28,14 @@
         font-size: 32px;
         line-height: 35px;
         max-width: 290px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__title {
         margin-left: 16px;
+        text-align: left;
     }
 }

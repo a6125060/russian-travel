@@ -7,7 +7,7 @@
     color: #ffffff;
     justify-self: start;
     align-self: end;
-    max-width: 340px;
+    max-width: 440px;
 }
 
 @media screen and (max-width: 1000px) {
